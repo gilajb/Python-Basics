@@ -2,7 +2,7 @@
 age = 17
 
 #float (decimal values)
-temp = 32.5
+temp = 32.45
 
 #string (texts)
 greeting = "Hello there"
@@ -18,7 +18,9 @@ print("Are you married?", isMarried)
 
 
 #    DATA STRUCTURE ----->
-cars = ["Audi", "BMW", "Toyota", "Mercedes"] #list - ordered & changeable
+cars = ["Audi", "BMW", "Toyota", "Mercedes"] #list - ordered, carries more than one data type & changeable
+
+languages = ["Java", "C++", "HTML", "Python"] #array - carries one data type only
 
 fruits = ("Apple", "Banana", "Cherry", "Grapes") #tuple - ordered & unchangeable
 
@@ -29,14 +31,16 @@ student = {
     "age" : 22,
     "course" : "FullStack",
     "gender" : "Male"
-}
+} #Dictionary
 
 print(cars)
 print(fruits)
 print(countries)
 print(student["firstname"])
 
-#Typecasting
+#Typecasting --> float, int, str
+
+print(int(temp))
 
 
 
