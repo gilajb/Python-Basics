@@ -2,7 +2,7 @@
 age = 17
 
 #float (decimal values)
-temp = 32.45
+temp = 32.8
 
 #string (texts)
 greeting = "Hello there"
@@ -40,7 +40,7 @@ print(student["firstname"])
 
 #Typecasting --> float, int, str
 
-print(int(temp))
+print(int(temp)) #Truncates values so (32.5 -> 32) and (32.4 -> 32)
 
 
 
