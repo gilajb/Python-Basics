@@ -8,4 +8,5 @@ elif age == 18:
 else:
     print("You are not old enough to vote")
 
-
+status = "Adult" if age >= 18 else "Child"
+print(status)

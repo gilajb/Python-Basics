@@ -40,5 +40,18 @@ print(not(100 < 200 or 100 == 200))
 
 #bitwise operators
 
+#rounding off
+x = 3.14
 
+result = round(x)
+print(result)
+
+#absolute value
+y = -6
+result = abs(y)
+print(result)
+
+#power
+result = pow(y, 2)
+print(result)
 
